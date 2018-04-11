@@ -1,0 +1,38 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.jobHistory {
+    padding: 12px 0px 0px 0px;
+    font-family: 'Rock Salt';
+    font-size: 35px;
+}
+
+.job1 {
+    border: 5px dotted black;
+    display: flex;
+    text-align: left;
+    padding: 45px;
+    width: 300px;
+}
+
+.job2 {
+    border: 5px dotted black;
+    display: flex;
+    text-align: left;
+    padding: 45px;
+    width: 300px;
+}
+
+.job3 {
+    border: 5px dotted black;
+    display: flex;
+    text-align: left;
+    padding: 45px;
+    width: 300px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Rock+Salt');

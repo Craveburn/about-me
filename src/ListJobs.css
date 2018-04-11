@@ -1,0 +1,16 @@
+.jobName {
+    font-family: 'Anton';
+    font-size: 25px;
+}
+
+.time {
+    font-family: 'Yanone Kaffeesatz';
+    font-size: 15px;
+}
+
+.desc {
+    font-family: 'Varela Round';
+    font-size: 12px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Anton|Varela+Round|Yanone+Kaffeesatz:300');
