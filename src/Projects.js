@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import ListJobs from './ListJobs'
+import Project from './Project'
 import './Projects.css'
 
 class Projects extends Component {
@@ -8,10 +8,10 @@ class Projects extends Component {
             <div className="main">
             <div className='projectName'>Projects</div>
                 <div className='project1'>
-                    <ListJobs jobName='React: Thinking in Components' time='April 8th, 2018' desc='Created a tic-tac-toe board using components within React.js' tech='React.js & CSS & GIT' />
+                    <Project jobName='React: Thinking in Components' url='https://github.com/Craveburn/tic-tac-toe' time='April 8th, 2018' desc='Created a tic-tac-toe board using components within React.js' tech='React.js & CSS & GIT' />
                 </div>
                 <div className='project2'>
-                    <ListJobs jobName='About Me' time='April 11th, 2018' desc='Created an About Me page using components & props within React.js' tech='React.js & CSS & GIT' />
+                    <Project jobName='About Me' url='https://github.com/Craveburn/about-me' time='April 11th, 2018' desc='Created an About Me page using components & props within React.js' tech='React.js & CSS & GIT' />
                 </div>
             </div>
         );
