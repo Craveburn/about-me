@@ -12,6 +12,14 @@
   padding: 0px 10px 0px 10px
 }
 
+a:hover {
+  color: purple;
+}
+
+a:active {
+  color: black;
+}
+
 nav {
   display: flex;
   align-items: center;

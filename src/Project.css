@@ -3,6 +3,14 @@
     font-size: 25px;
 }
 
+a {
+   color: black; 
+}
+
+a:hover {
+    color: white;
+}
+
 .url{
     font-family: 'Anton';
     font-size: 25px;

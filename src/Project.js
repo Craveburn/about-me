@@ -5,11 +5,11 @@ class Project extends Component {
     renderTitle() {
         if (this.props.url) {
             return (
-                <div className='url'> <a href={this.props.url}>{this.props.jobName}</a> </div>
+                <div className='url'> <a target="_blank" href={this.props.url}>{this.props.name}</a> </div>
             )
         } else {
             return (
-                <div className='jobName'> {this.props.jobName} </div>
+                <div className='jobName'> {this.props.name} </div>
             )
         }
     }
