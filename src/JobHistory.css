@@ -12,7 +12,7 @@
 }
 
 .job1 {
-    border: 5px dotted black;
+    border: 5px solid black;
     display: flex;
     text-align: left;
     padding: 45px;
@@ -20,7 +20,7 @@
 }
 
 .job2 {
-    border: 5px dotted black;
+    border: 5px solid black;
     display: flex;
     text-align: left;
     padding: 45px;
@@ -28,7 +28,7 @@
 }
 
 .job3 {
-    border: 5px dotted black;
+    border: 5px solid black;
     display: flex;
     text-align: left;
     padding: 45px;
